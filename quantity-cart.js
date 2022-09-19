@@ -16,5 +16,5 @@ function totalCost(products) {
     return sum;
 }
 
-const billingPrice = totalCost(shoppingCart);
-console.log(billingPrice);
+const expenses = totalCost(shoppingCart);
+console.log('Your total amout is: ', expenses);
